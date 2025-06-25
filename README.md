@@ -37,3 +37,11 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 - **Acceptance Criteria:** Defining clear acceptance criteria for each requirement to ensure they meet the expected standards.
 - **Traceability:** Establishing traceability matrices to ensure all requirements are addressed during development and testing.
 
+## Types of Requirements.
+### Functional Requirements ⚙️
+- **Definition:** Describe what the system should do.
+- **Examples:** search hotels, booking a hotel, pay for a room.
+
+### Non-functional Requirements 🛡️
+- **Definition:** Describe how the system should perform.
+- **Examples:** Performance, security, scalability, usability, reliability.
