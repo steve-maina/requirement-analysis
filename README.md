@@ -62,3 +62,48 @@ Use case diagrams show how different users (actors) interact with the system to 
 - Help in identifying and organizing system requirements.
 - Facilitate communication among stakeholders and development team.
 
+
+# Acceptance Criteria
+Acceptance criteria are conditions that a feature must meet to be accepted by the stakeholders.
+
+## Why Acceptance Criteria Matter in Requirement Analysis
+
+1. **Clarifies Requirements**  
+   AC removes ambiguity by translating high-level requirements into specific, testable conditions. This helps stakeholders, developers, and testers have a shared understanding of the feature.
+
+2. **Guides Development**  
+   Developers use AC to understand what exactly needs to be built and how success will be measured.
+
+3. **Improves Testing**  
+   QA teams rely on AC to create test cases. If a feature meets all its acceptance criteria, it can be confidently considered “done.”
+
+4. **Enables Better Communication**  
+   AC serves as a communication bridge between business stakeholders and the technical team, reducing misinterpretation of requirements.
+
+5. **Facilitates Agile and Iterative Development**  
+   In Agile frameworks like Scrum, AC is essential to defining "Done" for each user story in a sprint.
+
+## Example: Acceptance Criteria for a Checkout Feature in a Booking Management System
+
+**Acceptance Criteria**:
+
+1. **AC1: Input Validation**  
+   - All required fields (name, email, payment details) must be filled before proceeding.
+   - The system should display error messages for missing or invalid inputs.
+
+2. **AC2: Payment Processing**  
+   - The system should securely process the payment via integrated payment gateways (e.g., Stripe or PayPal).
+   - If payment fails, an error message should inform the user with possible next steps.
+
+3. **AC3: Confirmation Page**  
+   - After successful payment, a confirmation page must show the booking details, amount paid, and a confirmation number.
+
+4. **AC4: Email Notification**  
+   - The system must send a confirmation email to the user with booking and payment details within 5 minutes of checkout.
+
+5. **AC5: Booking Record Creation**  
+   - A new booking record must be created in the database upon successful checkout, with a unique booking ID.
+
+6. **AC6: Mobile Compatibility**  
+   - The checkout process should be responsive and fully functional on mobile devices.
+
