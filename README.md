@@ -62,7 +62,7 @@ Use case diagrams show how different users (actors) interact with the system to 
 - Help in identifying and organizing system requirements.
 - Facilitate communication among stakeholders and development team.
 
-![Use Case Diagram Example](https://drive.google.com/uc?export=view&id=1XXrzffWoE4RFqShNE8CNqJqbHXJ32DJf)
+![alx-booking-uc.png](alx-booking-uc.png)
 
 # Acceptance Criteria
 Acceptance criteria are conditions that a feature must meet to be accepted by the stakeholders.
